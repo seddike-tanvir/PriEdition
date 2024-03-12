@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+    background-color: #d5d5d9;
+}
+
+
+
+
+
+
+/* !-----Header Section--------------------------------- */
+.header{
+    margin: auto;
+    background-color: #ffffffbd;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / .1),
+                 0 8px 10px -6px rgb(0 0 0 / .1);
+    height: 4rem;
+    width: 100%;
+
+
+}
+.header div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+    width: 100%;
+}
+.header_logo{
+    width: 12rem;
+    /* height: auto; */
+}
+
+
+
+
+
+
+
+
+/* !-------BodyArea Section ------------------*/
+.bodyArea{
+    min-height: 55vh;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.658);
+    box-shadow: 0 20px 25px -16px rgb(0 0 0 / .1),
+                0 20px 25px -16px rgb(0 0 0 / .1);
+    width: 85%;
+    /* min-height: 15rem; */
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 1.7rem;
+    padding: 1.5rem;
+    
+}
+.txt_box{
+    /* padding: .5rem; */
+    margin-bottom: 2.2rem;
+}
+.txt_box p{
+    font-family: var(--bn_font_5);
+    font-size: 1rem;
+    color:rgba(0, 0, 0, 0.842);
+}
+.btn_link{
+    list-style-type: none;
+    text-decoration: none;
+}
+.btn{
+    border:1px solid black;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: #ffffff;
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    display: block;
+    margin: auto;
+    transition: .4s;
+}
+.btn:hover{
+    color: rgba(0, 0, 0, 0.726);
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+/* !-------Footer section--------------------------------- */
+.credit{
+    max-width: 85vw;
+    height: 3rem;
+    margin: auto;
+    margin-top: 18vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    text-decoration: none ;
+ }
+ .credit p{
+   font-size:.8rem ;
+   font-weight: 500 ;
+   color: #0663b9;
+   font-family: var(--bn_font_4);
+}
+.p2{
+    margin-top: .2rem;
+}
+#nm1{
+    color: red;
+}
+#nm2{
+    color: rgb(3, 151, 3);
+}
