@@ -20,6 +20,24 @@
 html{
     background-color: #d5d5d9;
 }
+.p1{
+    font-weight: 650;
+    font-size: 1.05rem;
+
+}
+.p2{
+    font-weight: 550;
+    font-size: .95rem;
+
+}
+.p3{
+    font-weight: 450;
+    font-size: .92rem;
+}
+.p4{
+    font-weight: 400;
+    font-size: .89rem;
+}
 
 
 
@@ -64,7 +82,7 @@ html{
     background-color: rgba(255, 255, 255, 0.658);
     box-shadow: 0 20px 25px -16px rgb(0 0 0 / .1),
                 0 20px 25px -16px rgb(0 0 0 / .1);
-    width: 85%;
+    width: 90%;
     /* min-height: 15rem; */
     border-radius: 10px;
     display: block;
@@ -73,13 +91,13 @@ html{
     padding: 1.5rem;
     
 }
-.txt_box{
+.txt_box_1{
     /* padding: .5rem; */
     margin-bottom: 2.2rem;
 }
-.txt_box p{
+.card p{
     font-family: var(--bn_font_5);
-    font-size: 1rem;
+    /* font-size: 1rem; */
     color:rgba(0, 0, 0, 0.842);
 }
 .btn_link{
@@ -100,6 +118,35 @@ html{
 .btn:hover{
     color: rgba(0, 0, 0, 0.726);
     background-color: #ffffff;
+    cursor: pointer;
+}
+.btn_box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.table,
+tr,
+td{
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-collapse: collapse;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+
+}
+.table{
+    width: 100%;
+}
+.table span{
+    font-size: .8rem;
+}
+.table caption{
+    font-size: .9rem;
+
+}
+.p4{
+    padding: .5rem 1rem 0rem 1rem;
+    /* margin-bottom: -1rem; */
 }
 
 
@@ -114,7 +161,7 @@ html{
     max-width: 85vw;
     height: 3rem;
     margin: auto;
-    margin-top: 18vh;
+    margin-top: 25vh;
     margin-bottom: 2vh;
     text-align: center;
     text-decoration: none ;
@@ -125,7 +172,7 @@ html{
    color: #0663b9;
    font-family: var(--bn_font_4);
 }
-.p2{
+.f_2{
     margin-top: .2rem;
 }
 #nm1{
