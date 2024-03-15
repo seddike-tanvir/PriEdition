@@ -38,6 +38,9 @@ html{
     font-weight: 400;
     font-size: .89rem;
 }
+.bold_p{
+    font-weight: 550;
+}
 
 
 
@@ -142,7 +145,8 @@ td{
 }
 .table caption{
     font-size: .9rem;
-
+    text-align: left;
+    margin-bottom: .3rem;
 }
 .p4{
     padding: .5rem 1rem 0rem 1rem;
