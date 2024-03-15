@@ -146,6 +146,7 @@ td{
 .table caption{
     font-size: .9rem;
     text-align: left;
+    font-family: var(--bn_font_5);
     margin-bottom: .3rem;
 }
 .p4{
