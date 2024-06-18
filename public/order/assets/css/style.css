@@ -4,6 +4,8 @@
     box-sizing: border-box;
     background: none;
     user-select: none;
+    font-family: var(--bn_font_5);
+
 }
 
 
@@ -99,7 +101,7 @@ html{
     margin-bottom: 2.2rem;
 }
 .card p{
-    font-family: var(--bn_font_5);
+    /* font-family: var(--bn_font_5); */
     /* font-size: 1rem; */
     color:rgba(0, 0, 0, 0.842);
 }
@@ -117,6 +119,7 @@ html{
     display: block;
     margin: auto;
     transition: .4s;
+    font-size: .9rem;
 }
 .btn:hover{
     color: rgba(0, 0, 0, 0.726);
@@ -146,14 +149,16 @@ td{
 .table caption{
     font-size: .9rem;
     text-align: left;
-    font-family: var(--bn_font_5);
+    /* font-family: var(--bn_font_5); */
     margin-bottom: .3rem;
 }
 .p4{
     padding: .5rem 1rem 0rem 1rem;
     /* margin-bottom: -1rem; */
 }
-
+.i_link{
+    color: #3c06d1;
+}
 
 
 

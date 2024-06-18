@@ -4,6 +4,8 @@
     box-sizing: border-box;
     background: none;
     user-select: none;
+    font-family: var(--bn_font_7);
+
 }
 
 
@@ -51,11 +53,16 @@ html{
 
 
 
-
-.p_txt{
-    font-family: var(--bn_font_7);
+.intro{
     text-align: center; 
     margin-top: 5rem;
+    /* margin-bottom: 10rem; */
+    font-size: 1.5rem;
+    
+}
+.p_txt{
+    text-align: center; 
+    margin-top: 1rem;
     margin-bottom: 10rem;
     font-size: 1.2rem;
     
