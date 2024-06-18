@@ -19,25 +19,25 @@
 
 html{
     background-color: #d5d5d9;
+    scroll-behavior: smooth;
 }
 .p1{
     font-weight: 650;
-    font-size: 1.05rem;
+    font-size: 1.27rem;
 
 }
 .p2{
     font-weight: 550;
-    font-size: .95rem;
+    font-size: 1.1rem;
 
 }
 .p3{
     font-weight: 450;
-    font-size: .92rem;
+    font-size: 1.2rem;
+    
 }
-.p4{
-    font-weight: 400;
-    font-size: .89rem;
-}
+
+
 .bold_p{
     font-weight: 550;
 }
@@ -48,7 +48,7 @@ html{
 
 
 /* !-----Header Section--------------------------------- */
-.header{
+.header_area{
     margin: auto;
     background-color: #ffffffbd;
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / .1),
@@ -56,14 +56,14 @@ html{
     height: 4rem;
     width: 100%;
 
-
 }
-.header div{
+.header_area div{
     display: flex;
     justify-content: center;
     /* align-items: center; */
     height: 100%;
     width: 100%;
+
 }
 .header_logo{
     width: 12rem;
