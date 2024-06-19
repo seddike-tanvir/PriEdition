@@ -25,22 +25,25 @@ html{
 }
 .p1{
     font-weight: 650;
-    font-size: 1.27rem;
+    font-size: 1.1rem;
 
 }
 .p2{
     font-weight: 550;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
 
 }
 .p3{
     font-weight: 450;
-    font-size: 1.2rem;
+    font-size: 1rem;
     
 }
 #p3_contact span{
     user-select: all;
 }
+/* .p_caption{
+    font-size: .5rem;
+} */
 
 
 .bold_p{
@@ -143,14 +146,19 @@ td{
     padding: 5px;
 
 }
+td,tr{
+    border: 1.5px solid rgba(0, 0, 0, 0.671);
+}
+
 .table{
     width: 100%;
 }
 .table span{
-    font-size: .8rem;
+    font-size: .7rem;
+    color: #0000008a;
 }
 .table caption{
-    font-size: .9rem;
+    font-size: 1rem;
     text-align: left;
     /* font-family: var(--bn_font_5); */
     margin-bottom: .3rem;
@@ -162,7 +170,10 @@ td{
 .i_link{
     color: #3c06d1;
 }
-
+#keno_card ul li{
+    margin-left: 1.8rem;
+    margin-top: .5rem;
+}
 
 
 
