@@ -140,8 +140,8 @@ html{
 tr,
 td{
     border: 1px solid rgba(0, 0, 0, 0.219);
-    border-collapse: collapse;
-    border-radius: 5px;
+    /* border-collapse: collapse; */
+    /* border-radius: 5px; */
     text-align: center;
     padding: 5px;
 
@@ -152,16 +152,32 @@ td,tr{
 
 .table{
     width: 100%;
+    border: 1.5px solid black;
+    padding: 0;
 }
 .table span{
-    font-size: .7rem;
-    color: #0000008a;
+    font-size: .75rem;
+    color: #00000096;
 }
 .table caption{
     font-size: 1rem;
     text-align: left;
     /* font-family: var(--bn_font_5); */
     margin-bottom: .3rem;
+}
+#row_1{
+    background-color: #006dd3;
+    border-style: double;
+}
+#row_1 td p,
+#row_1 td p span{
+    color: #ffffff;
+}
+.row_odd{
+    background-color: rgb(255, 255, 255);
+}
+.row_even{
+    background-color:rgb(255, 249, 240);
 }
 .p4{
     padding: .5rem 1rem 0rem 1rem;
