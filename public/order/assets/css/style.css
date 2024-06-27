@@ -89,6 +89,31 @@ html{
 .bodyArea{
     min-height: 55vh;
 }
+.siteMap{
+    display: inline-block;
+    /* height: 2rem; */
+    width: 100%;
+}
+.mapLine{
+    text-align:left;
+    padding-top: 1rem;
+    color: black;
+    margin-left: 10%;
+}
+.mapLine a{
+    text-decoration: none;
+    color: black;
+}
+.mapLine a:hover{
+    color: #065096;
+}
+.mapLine i{
+    font-size: .8rem;
+}
+.mapLine span{
+    font-size: 1.1rem;
+    letter-spacing:0em;
+}
 .card{
     background-color: rgba(255, 255, 255, 0.658);
     box-shadow: 0 20px 25px -16px rgb(0 0 0 / .1),
