@@ -117,18 +117,21 @@ html{
 }
 .btn{
     border:1px solid black;
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: rgba(0, 0, 0, 0.801);
     color: #ffffff;
     padding: 6px 20px;
     border-radius: 8px;
     font-weight: 500;
-    display: block;
-    margin: auto;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+    /* margin:auto; */
     transition: .4s;
     font-size: .9rem;
 }
 .btn:hover{
-    color: rgba(0, 0, 0, 0.726);
+    color: rgba(0, 0, 0, 0.829);
     background-color: #ffffff;
     cursor: pointer;
 }
@@ -156,8 +159,8 @@ td,tr{
     padding: 0;
 }
 .table span{
-    font-size: .75rem;
-    color: #00000096;
+    font-size: .85rem;
+    color: #000000b4;
 }
 .table caption{
     font-size: 1rem;
@@ -174,7 +177,7 @@ td,tr{
     color: #ffffff;
 }
 .row_odd{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 252, 248);
 }
 .row_even{
     background-color:rgb(255, 249, 240);
